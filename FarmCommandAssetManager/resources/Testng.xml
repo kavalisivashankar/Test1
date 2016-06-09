@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FarmCommand">
+<test name="Asset Manager -#829 Cannot delete assets test ">
+<parameter name="url" value="https://zonecalc.farmcommand.com/login/"></parameter>
+<parameter name="browser" value="Firefox"></parameter> 
+	<classes>
+	<class name="org.stories.test.Story829"></class>
+	</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FarmCommand]">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="url" value="https://zonecalc.farmcommand.com/login/"/>
+  <test name="Asset Manager -#829 Cannot delete assets test (failed)">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="url" value="https://zonecalc.farmcommand.com/login/"/>
+    <classes>
+      <class name="org.stories.test.Story829">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="asset_Delete_Test"/>
+        </methods>
+      </class> <!-- org.stories.test.Story829 -->
+    </classes>
+  </test> <!-- Asset Manager -#829 Cannot delete assets test (failed) -->
+</suite> <!-- Failed suite [FarmCommand] -->
